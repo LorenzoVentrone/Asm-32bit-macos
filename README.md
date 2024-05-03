@@ -9,10 +9,10 @@ This repository contains a Dockerfile and associated scripts to build a Docker c
 _Navigate into Dockerfile's directory and follow next steps_
 
 ```
-build -t asm-32bit-macos .
+docker build -t asm-32bit-macos .
 ```
 ```
-run -d -it asm-32bit-macos
+docker run -d -it asm-32bit-macos
 ```
 After that, first of all update apt: `apt update` , and you need other packages:
 *  *Build-essentials packages* : `apt install -y build-essential`
